@@ -1,0 +1,10 @@
+lazy-lock.json
+**/*.swp
+**/*.swo
+**/*.bak
+**/*~
+Session.vim
+**/*.un~
+**/*.lua.cache
+.fzf*cache
+/lsp_logs/
