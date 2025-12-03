@@ -31,3 +31,10 @@ vim.keymap.set('n', '<Leader>l', function()
         reset_statuscolumn()
     end
 end)
+
+vim.api.nvim_set_keymap('v', '<Leader>y', '"+y', { noremap = true, silent = true })
+vim.api.nvim_set_keymap('n', '<Leader>yy', '"+yy', { noremap = true, silent = true })
+vim.api.nvim_set_keymap('n', '<Leader>Y', '"+y$', { noremap = true, silent = true })
+
+vim.api.nvim_set_keymap('n', '<Leader>p', '"+p', { noremap = true, silent = true})
+vim.api.nvim_set_keymap('v', '<Leader>p', '"+p', { noremap = true, silent = true})
